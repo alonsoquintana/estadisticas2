@@ -147,11 +147,17 @@ return [
         [
             'text' => 'Home',
             'icon' => 'ti ti-home',
+            'url' => '/home'
+        ],
+
+        [
+            'text' => 'Categories',
+            'icon' => 'ti ti-book',
             'url' => 'home'
         ],
 
         [
-            'text' => 'Support 1',
+            'text' => 'Support',
             'url' => '#',
             'icon' => 'ti ti-help',
             'active' => ['support1'],
@@ -163,35 +169,6 @@ return [
                 ]
             ],
         ],
-
-        [
-            'text' => 'Support 2',
-            'url' => '#',
-            'icon' => 'ti ti-help',
-            'active' => ['support2'],
-            'submenu' => [
-                [
-                    'text' => 'Ticket',
-                    'url' => 'support2',
-                    'icon' => 'ti ti-article',
-                ]
-            ],
-        ],
-
-        [
-            'text' => 'Support 3',
-            'url' => '#',
-            'icon' => 'ti ti-help',
-            'active' => ['support3'],
-            'submenu' => [
-                [
-                    'text' => 'Ticket',
-                    'url' => 'support3',
-                    'icon' => 'ti ti-article',
-                ]
-            ],
-        ],
-
     ],
 
     /*
